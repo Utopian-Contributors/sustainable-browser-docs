@@ -121,7 +121,7 @@ The extension does NOT download or cache new dependencies at runtime. Only the p
 
 Now that you have the extension installed and running, you can:
 
-- [Learn how to build for the extension](./using-build-swapping.md)
+- [Learn how to build for the extension](/docs/vite-postprocessing/using-build-swapping.md)
 
 ## Troubleshooting
 
