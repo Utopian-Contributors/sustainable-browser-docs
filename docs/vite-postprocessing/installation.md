@@ -66,7 +66,3 @@ The postprocessing will run automatically after the Vite build completes.
 ## Using Build Swapping
 
 See the [Using Build Swapping](./using-build-swapping.md) guide.
-
-## Configuration
-
-The tool works with zero configuration by default, but you can customize its behavior. See the [Configuration Guide](./configuration.md) for advanced options.
