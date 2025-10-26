@@ -17,7 +17,6 @@ The extension uses Chrome's declarativeNetRequest API to:
 1. **Intercept requests** to `esm.sh` URLs
 2. **Redirect statically** to the [Sustainable Browser](https://chromewebstore.google.com/detail/sustainable-browser/cdpbgdconlejjfnpifkpalpcfohmiolf) extension
 3. **Serve from read-only storage** - dependencies are pre-bundled with the extension
-4. **Track network activity** redirected requests
 
 :::info
 The extension does NOT dynamically cache URLs or download dependencies at runtime. All dependencies are pre-bundled with the extension package.
