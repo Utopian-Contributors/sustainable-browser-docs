@@ -1,43 +1,68 @@
-import type {ReactNode} from 'react';
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
+import type { ReactNode } from 'react';
 
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      title={siteConfig.title}
+      description="Tools for reducing bandwidth usage and optimizing web application performance">
+      <main style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        minHeight: 'calc(100vh - 60px)',
+        padding: '2rem',
+      }}>
+        <img 
+          src="/img/logo.svg" 
+          alt="Sustainable Browser Logo" 
+          style={{
+            width: '200px',
+            height: '200px',
+            marginBottom: '3rem',
+          }}
+        />
+        
+        <h1 style={{ 
+          fontSize: '2.5rem', 
+          marginBottom: '1rem',
+          textAlign: 'center',
+        }}>
+          {siteConfig.title}
+        </h1>
+        
+        <p style={{ 
+          fontSize: '1.2rem', 
+          color: 'var(--ifm-color-emphasis-600)',
+          marginBottom: '3rem',
+          textAlign: 'center',
+          maxWidth: '600px',
+        }}>
+          {siteConfig.tagline}
+        </p>
+
+        <div style={{
+          display: 'flex',
+          gap: '1rem',
+          flexWrap: 'wrap',
+          justifyContent: 'center',
+        }}>
+          <Link
+            className="button button--primary button--lg"
+            to="/docs/browser-extension/installation">
+            Browser Extension
+          </Link>
+          <Link
+            className="button button--primary button--lg"
+            to="/docs/vite-postprocessing/intro">
+            Vite Postprocessing
+          </Link>
+        </div>
       </main>
     </Layout>
   );

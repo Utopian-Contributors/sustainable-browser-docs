@@ -44,8 +44,3 @@ The optimized build uses externalized dependencies:
 **Use when:**
 - [Sustainable Browser](https://chromewebstore.google.com/detail/sustainable-browser/cdpbgdconlejjfnpifkpalpcfohmiolf) extension is installed
 - Performance is critical
-
-## Next Steps
-
-- [Configure advanced options](./configuration.md)
-- [Understand how it works](./how-it-works.md)
