@@ -1,0 +1,8 @@
+{
+  "label": "Vite Postprocessing",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about Vite postprocessing tool and how it works."
+  }
+}
