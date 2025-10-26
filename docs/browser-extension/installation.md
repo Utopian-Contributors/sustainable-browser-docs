@@ -8,7 +8,7 @@ The Sustainable Browser Extension is a tool that redirects requests from esm.sh 
 
 - 🌱 Reduces bandwidth usage by serving dependencies locally
 - 🚀 Improves page load times for frequently used libraries
-- 📦 Uses with pre-bundled dependencies (no dynamic caching)
+- 📦 Uses pre-bundled dependencies (no dynamic caching)
 
 ## How It Works
 
