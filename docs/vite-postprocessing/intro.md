@@ -17,8 +17,8 @@ The tool runs automatically after your Vite build completes:
 
 1. **Analyzes your build** - Scans the compiled JavaScript for common libraries
 2. **Identifies externalizable libraries** - Detects libraries that can be served from CDNs
-3. **Creates an optimized build** - Generates a new build with externalized dependencies
-4. **Generates import maps** - Creates an import map pointing to CDN URLs that are saved inside the [Sustainable Browser](https://chromewebstore.google.com/detail/sustainable-browser/cdpbgdconlejjfnpifkpalpcfohmiolf) extension
+3. **Generates import maps** - Creates an import map pointing to CDN URLs that are saved inside the [Sustainable Browser](https://chromewebstore.google.com/detail/sustainable-browser/cdpbgdconlejjfnpifkpalpcfohmiolf) extension
+4. **Generates build swapping** - Generates an entry point that automatically falls back to the regular build if the extension is not detected.
 
 ## Key Benefits
 

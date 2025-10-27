@@ -30,22 +30,9 @@ Before you begin, make sure you have:
 
 ## Installation
 
-### Step 1: Download the Extension
-
-Obtain the extension package from your organization or source.
-
-### Step 2: Load in Chrome
-
-1. Open Chrome and navigate to `chrome://extensions/`
-2. Enable **Developer mode** using the toggle in the top right corner
-3. Click the **Load unpacked** button
-4. Navigate to and select the extension folder
+Install the extension from the [chrome web store](https://chromewebstore.google.com/detail/sustainable-browser/cdpbgdconlejjfnpifkpalpcfohmiolf)
 
 You should now see the Sustainable Browser Extension in your extensions list!
-
-:::tip
-If you received a `.zip` file, extract it first before loading the extension.
-:::
 
 ## Verifying Installation
 
@@ -125,7 +112,6 @@ Now that you have the extension installed and running, you can:
 ## Troubleshooting
 
 If you encounter issues during installation:
-
 
 - **No redirects happening**: 
   - Ensure the extension is enabled on `chrome://extensions/`

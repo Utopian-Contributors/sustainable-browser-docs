@@ -36,10 +36,8 @@ The original build is a standard Vite output:
 The optimized build uses externalized dependencies:
 
 - ✅ Smaller file size
-- ✅ Better caching potential
 - ✅ Faster for returning users
-- ⚠️ Requires import map support
-- ⚠️ Needs CDN access
+- ⚠️ Requires [import map support](https://caniuse.com/import-maps)
 
 **Use when:**
 - [Sustainable Browser](https://chromewebstore.google.com/detail/sustainable-browser/cdpbgdconlejjfnpifkpalpcfohmiolf) extension is installed
