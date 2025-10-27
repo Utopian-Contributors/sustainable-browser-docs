@@ -14,22 +14,25 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
  */
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
-    'intro',
+    "intro",
     {
-      type: 'category',
-      label: 'Browser Extension',
+      type: "category",
+      label: "Browser Extension",
+      items: ["browser-extension/installation"],
+    },
+    {
+      type: "category",
+      label: "Vite Postprocessing",
       items: [
-        'browser-extension/installation',
+        "vite-postprocessing/intro",
+        "vite-postprocessing/installation",
+        "vite-postprocessing/using-build-swapping",
       ],
     },
     {
-      type: 'category',
-      label: 'Vite Postprocessing',
-      items: [
-        'vite-postprocessing/intro',
-        'vite-postprocessing/installation',
-        'vite-postprocessing/using-build-swapping',
-      ],
+      type: "category",
+      label: "Website Badge",
+      items: ["website-badge/adding-the-badge"],
     },
   ],
 };

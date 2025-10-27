@@ -2,9 +2,9 @@
 
 This guide will help you install the extension in Chrome and learn about what it does.
 
-## What is the [Sustainable Browser](https://chromewebstore.google.com/detail/sustainable-browser/cdpbgdconlejjfnpifkpalpcfohmiolf) Extension?
+## What is the [Sustainable Browser](https://chromewebstore.google.com/detail/sustainable-browser/cdpbgdconlejjfnpifkpalpcfohmiolf) extension?
 
-The [Sustainable Browser](https://chromewebstore.google.com/detail/sustainable-browser/cdpbgdconlejjfnpifkpalpcfohmiolf) Extension is a tool that redirects requests from esm.sh CDN to locally bundled JavaScript dependencies. This approach:
+The [Sustainable Browser](https://chromewebstore.google.com/detail/sustainable-browser/cdpbgdconlejjfnpifkpalpcfohmiolf) extension is a tool that redirects requests from esm.sh CDN to locally bundled JavaScript dependencies. This approach:
 
 - 🌱 Reduces bandwidth usage through serving dependencies locally
 - 🚀 Improves page load times for frequently used libraries
@@ -71,7 +71,7 @@ Create a simple HTML file to test:
 
 Open this file in Chrome and check the Network tab (the request should show as redirected)
 
-## Understanding the Extension
+## Understanding the extension
 
 ### Static Redirects
 
