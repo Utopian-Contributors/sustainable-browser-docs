@@ -10,18 +10,18 @@ JSX Example:
 
 ```jsx
 <img
-    src="https://utopiancontributors.com/Sustainable-Website-Button.svg"
-    onClick={() =>
-        window.open("https://utopiancontributors.com", "_blank")
-    }
+  src="https://utopiancontributors.com/Sustainable-Website-Button.svg"
+  onClick={() =>
+    window.open("https://utopiancontributors.com", "_blank")
+  }
 />
 ```
 
 HTML Example:
 ```html
 <img
-    src="https://utopiancontributors.com/Sustainable-Website-Button.svg"
-    onClick="window.open('https://utopiancontributors.com', '_blank')"
+  src="https://utopiancontributors.com/Sustainable-Website-Button.svg"
+  onClick="window.open('https://utopiancontributors.com', '_blank')"
 />
 ````
 
