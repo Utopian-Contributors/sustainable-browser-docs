@@ -1,13 +1,8 @@
 # Introduction
 
-The Vite Postprocessing tool is a build optimization utility that automatically creates optimized builds and import maps for your Vite projects.
-
-## What is Vite Postprocessing?
-
 Vite Postprocessing is a postbuild script that analyzes your Vite build output and:
 
 - **Creates optimized builds** by externalizing common libraries
-- **Generates import maps** for supported libraries
 - **Reduces bundle size** by removing duplicated dependencies
 - **Improves load performance** by leveraging the [Sustainable Browser](https://chromewebstore.google.com/detail/sustainable-browser/cdpbgdconlejjfnpifkpalpcfohmiolf) extension
 
@@ -42,6 +37,8 @@ The tool creates an alternative optimized build that you can easily swap in for 
 The tool can automatically externalize and create import maps for popular libraries including:
 
 - React & React DOM
+- Vue
+- Svelte
 - Framer-motion
 - Lucide React
 - Tailwind-merge
